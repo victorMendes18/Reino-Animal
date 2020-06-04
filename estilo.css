@@ -1,0 +1,49 @@
+body{
+	font-family: arial;
+}
+#principal{
+	width: 960px;
+	margin: auto;
+	background: gray;
+	padding: 10px 20px;
+}
+	
+header nav ul{
+	list-style: none;
+	padding-left: 0;
+} 
+header nav ul li{
+	display: inline-block;
+	margin-right: 10px;
+}
+header nav ul li a{
+	font-size: 18px;
+	color: green;
+	text-decoration: none;
+}
+header nav ul li a:hover{
+	text-decoration: underline;
+}
+#paralelo{
+	float: right;
+	background: red;
+	width: 300px;
+}
+#conteudo{
+	float: left;
+	background: yellow;
+	width: 660px;
+}
+footer{
+	clear: both;
+}
+#paralelo ul li{
+	list-style: none;
+}
+#paralelo ul li a{
+	text-decoration: none;
+	color:orange;
+}
+#paralelo ul li a:hover{
+	text-decoration: underline;
+}
